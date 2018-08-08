@@ -20,16 +20,19 @@
         <service
             android:name=".MyService"
             android:enabled="true"
+            android:process=":back"
             android:exported="true" />
 
         <provider
             android:name=".MyContentProvider"
             android:authorities="andr0day"
+            android:process=":back"
             android:enabled="true"
             android:exported="true" />
 
         <receiver
             android:name=".MyReceiver"
+            android:process=":back"
             android:enabled="true"
             android:exported="true"/>
     </application>

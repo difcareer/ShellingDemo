@@ -1,0 +1,1 @@
+jarsigner -verbose -keystore app/misc/sign.keystore -storepass 123456 -signedjar sign/signed.apk sign/unsigned.apk andr0day

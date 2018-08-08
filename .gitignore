@@ -6,3 +6,5 @@
 /build
 /captures
 .externalNativeBuild
+sign/unsigned.apk
+sign/signed.apk
